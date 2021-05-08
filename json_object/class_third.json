@@ -1,0 +1,178 @@
+{
+    ".castom_class": {
+        "__name__": "third",
+        "__attr__": {
+            "func": {
+                ".castom_func": {
+                    "__code__": {
+                        ".code": {
+                            "co_argcount": 3,
+                            "co_code": [
+                                100,
+                                1,
+                                125,
+                                3,
+                                124,
+                                0,
+                                106,
+                                0,
+                                68,
+                                0,
+                                93,
+                                12,
+                                125,
+                                4,
+                                124,
+                                3,
+                                124,
+                                4,
+                                55,
+                                0,
+                                125,
+                                3,
+                                113,
+                                10,
+                                124,
+                                1,
+                                124,
+                                2,
+                                23,
+                                0,
+                                124,
+                                0,
+                                106,
+                                1,
+                                23,
+                                0,
+                                124,
+                                3,
+                                23,
+                                0,
+                                83,
+                                0
+                            ],
+                            "co_cellvars": [],
+                            "co_consts": [
+                                null,
+                                0
+                            ],
+                            "co_filename": "/home/dcdrugs/Serialization/unittests/dumpclass.py",
+                            "co_firstlineno": 31,
+                            "co_flags": 67,
+                            "co_lnotab": [
+                                0,
+                                1,
+                                4,
+                                1,
+                                10,
+                                1,
+                                10,
+                                1
+                            ],
+                            "co_freevars": [],
+                            "co_posonlyargcount": 0,
+                            "co_kwonlyargcount": 0,
+                            "co_name": "func",
+                            "co_names": [
+                                "v",
+                                "i"
+                            ],
+                            "co_nlocals": 5,
+                            "co_stacksize": 3,
+                            "co_varnames": [
+                                "self",
+                                "x",
+                                "y",
+                                "k",
+                                "item"
+                            ]
+                        }
+                    },
+                    "__globals__": {},
+                    "__name__": "func",
+                    "__closure__": null
+                }
+            },
+            "func1": {
+                ".castom_func": {
+                    "__code__": {
+                        ".code": {
+                            "co_argcount": 3,
+                            "co_code": [
+                                116,
+                                0,
+                                116,
+                                1,
+                                131,
+                                1,
+                                100,
+                                1,
+                                23,
+                                0,
+                                125,
+                                3,
+                                124,
+                                1,
+                                124,
+                                2,
+                                23,
+                                0,
+                                116,
+                                2,
+                                23,
+                                0,
+                                124,
+                                3,
+                                23,
+                                0,
+                                83,
+                                0
+                            ],
+                            "co_cellvars": [],
+                            "co_consts": [
+                                null,
+                                2
+                            ],
+                            "co_filename": "/home/dcdrugs/Serialization/unittests/dumpclass.py",
+                            "co_firstlineno": 37,
+                            "co_flags": 67,
+                            "co_lnotab": [
+                                0,
+                                1,
+                                12,
+                                1
+                            ],
+                            "co_freevars": [],
+                            "co_posonlyargcount": 0,
+                            "co_kwonlyargcount": 0,
+                            "co_name": "func1",
+                            "co_names": [
+                                "sum",
+                                "v",
+                                "i"
+                            ],
+                            "co_nlocals": 4,
+                            "co_stacksize": 2,
+                            "co_varnames": [
+                                "self",
+                                "x",
+                                "y",
+                                "k"
+                            ]
+                        }
+                    },
+                    "__globals__": {},
+                    "__name__": "func1",
+                    "__closure__": null
+                }
+            },
+            "i": 3,
+            "v": [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    ".castom_func": {
+        "__code__": {
+            ".code": {
+                "co_argcount": 2,
+                "co_code": [
+                    116,
+                    0,
+                    160,
+                    1,
+                    124,
+                    0,
+                    124,
+                    1,
+                    23,
+                    0,
+                    161,
+                    1,
+                    83,
+                    0
+                ],
+                "co_cellvars": [],
+                "co_consts": [
+                    null
+                ],
+                "co_filename": "/home/dcdrugs/Serialization/unittests/dumpfunc.py",
+                "co_firstlineno": 33,
+                "co_flags": 67,
+                "co_lnotab": [
+                    0,
+                    1
+                ],
+                "co_freevars": [],
+                "co_posonlyargcount": 0,
+                "co_kwonlyargcount": 0,
+                "co_name": "module_add",
+                "co_names": [
+                    "m",
+                    "sin"
+                ],
+                "co_nlocals": 2,
+                "co_stacksize": 4,
+                "co_varnames": [
+                    "x",
+                    "y"
+                ]
+            }
+        },
+        "__globals__": {
+            "m": "<module 'math' (built-in)>"
+        },
+        "__name__": "module_add",
+        "__closure__": null
+    }
+}
