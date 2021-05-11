@@ -1,28 +1,28 @@
-from setuptools import setup
+#!/usr/bin/env python
+
+from platform import python_version_tuple
+
+import setuptools
+
+
+try:
+    from setuptools import setup
+except ImportError:
+    from distutils.core import setup
+
+
+if python_version_tuple()[0] < "3":
+    raise ValueError("Error python version. Need python3 and more")
 
 setup(
-    name="lib",
-    packages=[
-        "factory",
-        "libs",
-        "libs/json",
-        "libs/yaml",
-        "tools",
-    ],
-    version="0.2.4",
-    description="Serializer/Deserializer",
+    name="dump",
+    version="0.8.10",
+    description="Dump function to YAML/JSON",
     author="Alex",
+    url="https://github.com//DcDrugs/Serializator",
     license="MIT",
-    python_requires=">=3.8",
+    setup_requires=["wheel"],
+    install_requires=["pyyaml", "wheel"],
+    packages=["tools", "libs/json", "libs/yaml", "factory", "application"],
+    entry_points={"console_scripts": "dump=application.command_line:main"},
 )
-
-import os
-import sys
-
-home = str(sys.path[0])
-
-os.system("rm -rf ~/lib")
-os.system("mkdir ~/lib")
-os.system("cp -a . ~/lib")
-
-os.system("chmod +x ~/lib/dump.py")
