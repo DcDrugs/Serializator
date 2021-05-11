@@ -1,11 +1,11 @@
-from json import dumps, loads
+from libs.json import dumps, loads
 from tools.packager import pack, unpack
 
 
 class JsonParser:
     def dumps(self, obj):
         p = pack(obj)
-        return dumps(p, indent = 4)
+        return dumps(p)
 
     def dump(self, obj, fp):
         return fp.write(self.dumps(obj))
