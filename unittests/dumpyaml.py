@@ -28,7 +28,7 @@ def get_yaml_myclass():
 
 
 def get_yaml_myclass_obj():
-    fp = open("json_object/build_myclass.yaml", "r")
+    fp = open("json_object/builds_myclass.yaml", "r")
     res = fp.read()
     fp.close()
     return res

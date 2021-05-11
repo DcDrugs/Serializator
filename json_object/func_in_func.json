@@ -173,7 +173,7 @@
                             "co_consts": [
                                 null
                             ],
-                            "co_filename": "/home/dcdrugs/Serialization/unittests/../tools/inspector.py",
+                            "co_filename": "/home/dcdrugs/Serialization/tools/inspector.py",
                             "co_firstlineno": 14,
                             "co_flags": 67,
                             "co_lnotab": [
