@@ -1,0 +1,228 @@
+{
+    ".castom_func": {
+        "__code__": {
+            ".code": {
+                "co_argcount": 2,
+                "co_code": [
+                    100,
+                    1,
+                    100,
+                    2,
+                    132,
+                    0,
+                    125,
+                    2,
+                    116,
+                    0,
+                    116,
+                    1,
+                    160,
+                    2,
+                    124,
+                    2,
+                    124,
+                    0,
+                    124,
+                    1,
+                    131,
+                    2,
+                    161,
+                    1,
+                    100,
+                    3,
+                    19,
+                    0,
+                    131,
+                    1,
+                    83,
+                    0
+                ],
+                "co_cellvars": [],
+                "co_consts": [
+                    null,
+                    {
+                        ".code": {
+                            "co_argcount": 2,
+                            "co_code": [
+                                124,
+                                0,
+                                124,
+                                1,
+                                23,
+                                0,
+                                83,
+                                0
+                            ],
+                            "co_cellvars": [],
+                            "co_consts": [
+                                null
+                            ],
+                            "co_filename": "/home/dcdrugs/Serialization/unittests/dumpfunc.py",
+                            "co_firstlineno": 38,
+                            "co_flags": 83,
+                            "co_lnotab": [
+                                0,
+                                1
+                            ],
+                            "co_freevars": [],
+                            "co_posonlyargcount": 0,
+                            "co_kwonlyargcount": 0,
+                            "co_name": "f",
+                            "co_names": [],
+                            "co_nlocals": 2,
+                            "co_stacksize": 2,
+                            "co_varnames": [
+                                "x",
+                                "y"
+                            ]
+                        }
+                    },
+                    "func_in_func.<locals>.f",
+                    33
+                ],
+                "co_filename": "/home/dcdrugs/Serialization/unittests/dumpfunc.py",
+                "co_firstlineno": 37,
+                "co_flags": 67,
+                "co_lnotab": [
+                    0,
+                    1,
+                    8,
+                    3
+                ],
+                "co_freevars": [],
+                "co_posonlyargcount": 0,
+                "co_kwonlyargcount": 0,
+                "co_name": "func_in_func",
+                "co_names": [
+                    "is_primitive",
+                    "m",
+                    "sin"
+                ],
+                "co_nlocals": 3,
+                "co_stacksize": 6,
+                "co_varnames": [
+                    "x",
+                    "y",
+                    "f"
+                ]
+            }
+        },
+        "__globals__": {
+            "is_primitive": {
+                ".castom_func": {
+                    "__code__": {
+                        ".code": {
+                            "co_argcount": 1,
+                            "co_code": [
+                                116,
+                                0,
+                                124,
+                                0,
+                                116,
+                                1,
+                                131,
+                                2,
+                                112,
+                                52,
+                                116,
+                                0,
+                                124,
+                                0,
+                                116,
+                                2,
+                                131,
+                                2,
+                                112,
+                                52,
+                                116,
+                                0,
+                                124,
+                                0,
+                                116,
+                                3,
+                                131,
+                                2,
+                                112,
+                                52,
+                                116,
+                                0,
+                                124,
+                                0,
+                                116,
+                                4,
+                                131,
+                                2,
+                                112,
+                                52,
+                                116,
+                                0,
+                                124,
+                                0,
+                                116,
+                                5,
+                                100,
+                                0,
+                                131,
+                                1,
+                                131,
+                                2,
+                                83,
+                                0
+                            ],
+                            "co_cellvars": [],
+                            "co_consts": [
+                                null
+                            ],
+                            "co_filename": "/home/dcdrugs/Serialization/tools/inspector.py",
+                            "co_firstlineno": 14,
+                            "co_flags": 67,
+                            "co_lnotab": [
+                                0,
+                                2,
+                                10,
+                                1,
+                                8,
+                                255,
+                                2,
+                                2,
+                                8,
+                                254,
+                                2,
+                                3,
+                                8,
+                                253,
+                                2,
+                                4,
+                                12,
+                                251
+                            ],
+                            "co_freevars": [],
+                            "co_posonlyargcount": 0,
+                            "co_kwonlyargcount": 0,
+                            "co_name": "is_primitive",
+                            "co_names": [
+                                "isinstance",
+                                "int",
+                                "float",
+                                "bool",
+                                "str",
+                                "type"
+                            ],
+                            "co_nlocals": 1,
+                            "co_stacksize": 4,
+                            "co_varnames": [
+                                "obj"
+                            ]
+                        }
+                    },
+                    "__globals__": {},
+                    "__name__": "is_primitive",
+                    "__closure__": null
+                }
+            },
+            "m": "<module 'math' (built-in)>"
+        },
+        "__name__": "func_in_func",
+        "__closure__": null
+    }
+}
