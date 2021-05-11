@@ -1,0 +1,49 @@
+{
+    ".castom_func": {
+        "__code__": {
+            ".code": {
+                "co_argcount": 1,
+                "co_code": [
+                    116,
+                    0,
+                    124,
+                    0,
+                    131,
+                    1,
+                    1,
+                    0,
+                    100,
+                    0,
+                    83,
+                    0
+                ],
+                "co_cellvars": [],
+                "co_consts": [
+                    null
+                ],
+                "co_filename": "/home/dcdrugs/Serialization/unittests/dumpfunc.py",
+                "co_firstlineno": 20,
+                "co_flags": 67,
+                "co_lnotab": [
+                    0,
+                    1
+                ],
+                "co_freevars": [],
+                "co_posonlyargcount": 0,
+                "co_kwonlyargcount": 0,
+                "co_name": "params",
+                "co_names": [
+                    "print"
+                ],
+                "co_nlocals": 1,
+                "co_stacksize": 2,
+                "co_varnames": [
+                    "x"
+                ]
+            }
+        },
+        "__globals__": {},
+        "__name__": "params",
+        "__closure__": null
+    }
+}

@@ -1,0 +1,161 @@
+{
+    ".castom_class": {
+        "__class__": "<class '__main__.myclass'>",
+        "__attr__": {
+            "func": {
+                ".castom_func": {
+                    "__code__": {
+                        ".code": {
+                            "co_argcount": 3,
+                            "co_code": [
+                                100,
+                                1,
+                                125,
+                                3,
+                                100,
+                                2,
+                                100,
+                                3,
+                                132,
+                                0,
+                                125,
+                                4,
+                                124,
+                                0,
+                                106,
+                                0,
+                                68,
+                                0,
+                                93,
+                                28,
+                                125,
+                                5,
+                                124,
+                                3,
+                                116,
+                                1,
+                                160,
+                                2,
+                                124,
+                                4,
+                                124,
+                                1,
+                                124,
+                                2,
+                                131,
+                                2,
+                                124,
+                                5,
+                                23,
+                                0,
+                                161,
+                                1,
+                                55,
+                                0,
+                                125,
+                                3,
+                                113,
+                                18,
+                                124,
+                                3,
+                                83,
+                                0
+                            ],
+                            "co_cellvars": [],
+                            "co_consts": [
+                                null,
+                                0,
+                                {
+                                    ".code": {
+                                        "co_argcount": 2,
+                                        "co_code": [
+                                            124,
+                                            0,
+                                            124,
+                                            1,
+                                            23,
+                                            0,
+                                            83,
+                                            0
+                                        ],
+                                        "co_cellvars": [],
+                                        "co_consts": [
+                                            null
+                                        ],
+                                        "co_filename": "/home/dcdrugs/Serialization/unittests/loadjson.py",
+                                        "co_firstlineno": 16,
+                                        "co_flags": 83,
+                                        "co_lnotab": [
+                                            0,
+                                            1
+                                        ],
+                                        "co_freevars": [],
+                                        "co_posonlyargcount": 0,
+                                        "co_kwonlyargcount": 0,
+                                        "co_name": "f",
+                                        "co_names": [],
+                                        "co_nlocals": 2,
+                                        "co_stacksize": 2,
+                                        "co_varnames": [
+                                            "x",
+                                            "y"
+                                        ]
+                                    }
+                                },
+                                "myclass.func.<locals>.f"
+                            ],
+                            "co_filename": "/home/dcdrugs/Serialization/unittests/loadjson.py",
+                            "co_firstlineno": 13,
+                            "co_flags": 67,
+                            "co_lnotab": [
+                                0,
+                                1,
+                                4,
+                                2,
+                                8,
+                                3,
+                                10,
+                                1,
+                                26,
+                                1
+                            ],
+                            "co_freevars": [],
+                            "co_posonlyargcount": 0,
+                            "co_kwonlyargcount": 0,
+                            "co_name": "func",
+                            "co_names": [
+                                "v",
+                                "m",
+                                "sin"
+                            ],
+                            "co_nlocals": 6,
+                            "co_stacksize": 7,
+                            "co_varnames": [
+                                "self",
+                                "x",
+                                "y",
+                                "res",
+                                "f",
+                                "i"
+                            ]
+                        }
+                    },
+                    "__globals__": {
+                        "m": "<module 'math' (built-in)>"
+                    },
+                    "__name__": "func",
+                    "__closure__": null
+                }
+            },
+            "i": 0,
+            "v": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        }
+    }
+}

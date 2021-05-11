@@ -1,0 +1,138 @@
+.castom_class:
+    __attr__:
+        func:
+            .castom_func:
+                __closure__: null
+                __code__:
+                    .code:
+                        co_argcount: 3
+                        co_cellvars: !!python/tuple []
+                        co_code:
+                        - 100
+                        - 1
+                        - 125
+                        - 3
+                        - 100
+                        - 2
+                        - 100
+                        - 3
+                        - 132
+                        - 0
+                        - 125
+                        - 4
+                        - 124
+                        - 0
+                        - 106
+                        - 0
+                        - 68
+                        - 0
+                        - 93
+                        - 28
+                        - 125
+                        - 5
+                        - 124
+                        - 3
+                        - 116
+                        - 1
+                        - 160
+                        - 2
+                        - 124
+                        - 4
+                        - 124
+                        - 1
+                        - 124
+                        - 2
+                        - 131
+                        - 2
+                        - 124
+                        - 5
+                        - 23
+                        - 0
+                        - 161
+                        - 1
+                        - 55
+                        - 0
+                        - 125
+                        - 3
+                        - 113
+                        - 18
+                        - 124
+                        - 3
+                        - 83
+                        - 0
+                        co_consts:
+                        - null
+                        - 0
+                        -   .code:
+                                co_argcount: 2
+                                co_cellvars: !!python/tuple []
+                                co_code:
+                                - 124
+                                - 0
+                                - 124
+                                - 1
+                                - 23
+                                - 0
+                                - 83
+                                - 0
+                                co_consts:
+                                - null
+                                co_filename: /home/dcdrugs/Serialization/unittests/dumpyaml.py
+                                co_firstlineno: 15
+                                co_flags: 83
+                                co_freevars: !!python/tuple []
+                                co_kwonlyargcount: 0
+                                co_lnotab:
+                                - 0
+                                - 1
+                                co_name: f
+                                co_names: !!python/tuple []
+                                co_nlocals: 2
+                                co_posonlyargcount: 0
+                                co_stacksize: 2
+                                co_varnames: !!python/tuple
+                                - x
+                                - y
+                        - myclass.func.<locals>.f
+                        co_filename: /home/dcdrugs/Serialization/unittests/dumpyaml.py
+                        co_firstlineno: 12
+                        co_flags: 67
+                        co_freevars: !!python/tuple []
+                        co_kwonlyargcount: 0
+                        co_lnotab:
+                        - 0
+                        - 1
+                        - 4
+                        - 2
+                        - 8
+                        - 3
+                        - 10
+                        - 1
+                        - 26
+                        - 1
+                        co_name: func
+                        co_names: !!python/tuple
+                        - v
+                        - m
+                        - sin
+                        co_nlocals: 6
+                        co_posonlyargcount: 0
+                        co_stacksize: 7
+                        co_varnames: !!python/tuple
+                        - self
+                        - x
+                        - y
+                        - res
+                        - f
+                        - i
+                __globals__: {}
+                __name__: func
+        i: 0
+        v:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+    __class__: <class 'dumpyaml.myclass'>
