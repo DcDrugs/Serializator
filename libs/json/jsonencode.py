@@ -1,4 +1,4 @@
-class JsonEncode:
+class JsonEncoder:
     def __init__(self, tab="\t", crlf="\n"):
         self.nesting_level = 0
         self.tab = tab
@@ -56,6 +56,9 @@ class JsonEncode:
     def bool_to_json(self, obj):
         return str(obj).lower()
 
+    def none_to_json(self, obj):
+        return "null"
+
     def string_to_json(self, obj):
         bracket = self.json_brackets[type(obj)]
         return bracket[0] + str(obj) + bracket[1]
@@ -65,7 +68,6 @@ class JsonEncode:
             return self.json_type[type(obj)](self, obj)
         else:
             raise ValueError("can't encode: ", type(obj))
-
 
     json_brackets = {
         dict: ("{", "}"),
@@ -82,5 +84,5 @@ class JsonEncode:
         dict: dict_to_json,
         list: array_to_json,
         tuple: array_to_json,
-        type(None): primitive_to_json,
+        type(None): none_to_json,
     }
