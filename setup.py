@@ -16,7 +16,7 @@ if python_version_tuple()[0] < "3":
 
 setup(
     name="dump",
-    version="0.8.10",
+    version="1.0.0",
     description="Dump function to YAML/JSON",
     author="Alex",
     url="https://github.com//DcDrugs/Serializator",

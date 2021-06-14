@@ -43,14 +43,17 @@ class JsonDecoder:
         return res, remove_prefix(objs, "]")
 
     def json_to_numberic(self, obj):
+        is_end = True
         for i in range(len(obj)):
             if obj[i] not in self.int_const and obj[i] != ".":
-                try:
-                    return int(obj[:i]), obj[i:]
-                except ValueError:
-                    return float(obj[:i]), obj[i:]
-
-        return
+                is_end = False
+                break
+        if is_end:
+            i += 1
+        try:
+            return int(obj[:i]), obj[i:]
+        except ValueError:
+            return float(obj[:i]), obj[i:]
 
     def json_to_string(self, obj):
         obj = remove_prefix(obj, '"')
@@ -75,10 +78,11 @@ class JsonDecoder:
         else:
             return item
 
-    int_const = tuple("1 2 3 4 5 6 7 8 9 0".split(" "))
+    int_const = tuple("1 2 3 4 5 6 7 8 9 0 -".split(" "))
 
 
 def remove_prefix(text, prefix):
     if text.startswith(prefix):
         return text[len(prefix) :]
     return text
+    
