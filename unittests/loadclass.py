@@ -17,8 +17,8 @@ class third:
     v = [0, 1, 2, 3]
 
     def func(self, x, y):
-        k = sum(v)
-        return x + y + i + k
+        k = sum(self.v)
+        return x + y + self.i + k
 
 
 class third:
@@ -32,8 +32,8 @@ class third:
         return x + y + self.i + k
 
     def func1(self, x, y):
-        k = sum(v) + 2
-        return x + y + i + k
+        k = sum(self.v) + 2
+        return x + y + self.i + k
 
 
 class myclass:
