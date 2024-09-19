@@ -1,5 +1,6 @@
 import unittest
 import sys
+import math as m
 
 sys.path.append(sys.path[0] + "/..")
 from factory.factory import serializer
