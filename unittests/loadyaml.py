@@ -22,16 +22,14 @@ class myclass:
 
 
 def get_yaml_myclass():
-    return open("json_object/class_myclasss.yaml", "r")
-    res = fp.read()
-    fp.close()
+    with open("json_object/class_myclasss.yaml", "r") as fp:
+        res = fp.read()
     return res
 
 
 def get_yaml_myclass_obj():
-    return open("json_object/build_myclasss.yaml", "r")
-    res = fp.read()
-    fp.close()
+    with open("json_object/build_myclasss.yaml", "r") as fp:
+        res = fp.read()
     return res
 
 
