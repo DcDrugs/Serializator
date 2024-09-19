@@ -17,14 +17,16 @@ from factory.factory import serializer
 
 
 # returns 'seriqlizer'
-sl = serializer.get_parser("yaml")
+parser = serializer.get_parser("yaml")
 
+# function to test
 def hello():
     print("Hello, World!")
 
 # create JSON object from function
 j_func = parser.dumps(hello)
 
+# create function from JSON object
 f = parser.loads(j_func)
 
 # call func
